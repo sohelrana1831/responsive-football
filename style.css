@@ -207,3 +207,21 @@
     width: 100px;
   }
 /* Aside Area CSS End  */
+
+/* Footer area CSS start */
+.footer-container{
+  text-align: center;
+}
+.logo{
+
+  width: 100%;
+  height: 250px;
+}
+.footer-container ul li {
+  display: inline-block;
+  padding: 10px;
+}
+.footer-container ul li a {
+  font-size: 28px;
+}
+/* Footer area CSS End */
