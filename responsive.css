@@ -1,139 +1,119 @@
- /* Extra small devices (phones, 600px and down) */
- @media only screen and (max-width: 600px) {
+/* smartphones, iPhone, portrait 480x320 phones */
+@media only screen and (max-width:320px) {
+    .header-container{
+    width: 65%;
+    }
+    .article-item {
+    width: 247px;
+    }
+    } 
+    /* Extra small devices (phones, 600px and down) */
+    @media only screen and (max-width: 600px) {
     /* Header CSS Start  */
     .header-container {
-        display: grid;
-        grid-template-columns: auto;
+    display: grid;
+    grid-template-columns: auto;
     }
     .header-right{
-        width: 300px;
+    width: 300px;
     }
-
     .header-container > div {
-        height: 0px;
+    height: 0px;
     }
-
     .header-left h1 {
-        color: #fff;
-        font-size: 30px;
+    color: #fff;
+    font-size: 30px;
     }
-
     .anchor-button {
-        font-size: 14px;
-        letter-spacing: 0px;
+    font-size: 14px;
+    letter-spacing: 0px;
     }
     /* Header CSS End  */
-
     /* Article Area CSS Start  */
     .article-container {
-        grid-template-columns: auto;
-        margin: 50px 31px;
-        
+    grid-template-columns: auto;
+    margin: 50px 31px;
     }
     /* Article Area CSS End  */
-
-
     /* Figure Area CSS Start */
     .figure-container {
-        padding: 0 40px;
+    padding: 0 40px;
     }
     /* Figure Area CSS end */
-
     /* Aside Contact Area CSS Start  */
     .aside-container {
-        margin: 50px 40px 0px 40px;
+    margin: 50px 40px 0px 40px;
     }
     /* Aside Contact Area CSS End  */
     .logo {
-        height: 145px;
+    height: 145px;
     }
-
- }
-
- /* Small devices (portrait tablets and large phones, 600px and up) */
- @media only screen and (min-width: 600px) {
-
- }
- 
- /* Medium devices (landscape tablets, 768px and up) */
- @media only screen and (min-width: 768px) {
+    }
+    /* Small devices (portrait tablets and large phones, 600px and up) */
+    @media only screen and (min-width: 600px) {
+    }
+    /* Medium devices (landscape tablets, 768px and up) */
+    @media only screen and (min-width: 768px) {
     .article-container {
-        grid-template-columns: auto auto;
-        margin: 0px;
+    grid-template-columns: auto auto;
+    margin: 0px;
     }
-
     .header-left h1 {
-        font-size: 25px;
+    font-size: 25px;
     }
-
     .anchor-button {
-        font-size: 14px;
-        letter-spacing: 0px;
+    font-size: 14px;
+    letter-spacing: 0px;
     }
-
     .header-container {
-        height: 500px;
-        padding: 0 50px;
+    height: 500px;
+    padding: 0 50px;
     }
     .header-container > div {
-        margin-top: 50px;
+    margin-top: 50px;
     }
     .header-left {
-        width: 355px;
+    width: 355px;
     }
-
     .figure-container {
-        padding: 50px 20px;
+    padding: 50px 20px;
     }
-
     .aside-container {
-        margin: 50px 20px;
+    margin: 50px 20px;
     }
-
-
- }
- 
- /* Large devices (laptops/desktops, 992px and up) */
- @media only screen and (min-width: 992px) {
-
+    }
+    /* Large devices (laptops/desktops, 992px and up) */
+    @media only screen and (min-width: 992px) {
     .article-container {
-        grid-template-columns: auto auto auto;
-        margin: 50px 100px;
-        
+    grid-template-columns: auto auto auto;
+    margin: 50px 100px;
     }
-
     .header-left h1 {
-        font-size: 64px;
+    font-size: 64px;
     }
     .header-left {
-        width: 500px;
+    width: 500px;
+    }
+    .anchor-button {
+    font-size: 28px;
+    letter-spacing: 7px;
+    }
+    .header-container {
+    height: 550px;
+    padding: 0 100px;
+    }
+    .header-container > div {
+    margin-top: 20px;
+    }
+    .figure-container {
+    padding: 50px 100px;
+    }
+    .aside-container {
+    margin: 50px 100px;
+    }
+    }
+    /* Extra large devices (large laptops and desktops, 1200px and up) */
+    @media only screen and (min-width: 1200px) {
     }
     
-    .anchor-button {
-        font-size: 28px;
-        letter-spacing: 7px;
-    }
-
-    .header-container {
-        height: 550px;
-        padding: 0 100px;
-    }
-    .header-container > div {
-        margin-top: 20px;
-    }
-
-
-    .figure-container {
-        padding: 50px 100px;
-    }
-
-    .aside-container {
-        margin: 50px 100px;
-    }
-
- }
- 
- /* Extra large devices (large laptops and desktops, 1200px and up) */
- @media only screen and (min-width: 1200px) {
-
- } 
+    
